@@ -1,0 +1,21 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "playwright": "playwright@1.48.0"
+    },
+    "packages": {
+      "playwright-core@1.48.0": {
+        "integrity": "sha512-RBvzjM9rdpP7UUFrQzRwR8L/xR4HyC1QXMzGYTbf1vjw25/ya9NRAVnXi/0fvFopjebvyPzsmoK58xxeEOaVvA==",
+        "dependencies": {}
+      },
+      "playwright@1.48.0": {
+        "integrity": "sha512-qPqFaMEHuY/ug8o0uteYJSRfMGFikhUysk8ZvAtfKmUK3kc/6oNl/y3EczF8OFGYIi/Ex2HspMfzYArk6+XQSA==",
+        "dependencies": {
+          "playwright-core": "playwright-core@1.48.0"
+        }
+      }
+    }
+  }
+}
